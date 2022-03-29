@@ -35,7 +35,7 @@ function App() {
       completed: false,
     };
 
-    setArr([...arr, obj]);
+    setArr([obj, ...arr]);
     settasks("");
   };
 
